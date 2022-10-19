@@ -1,0 +1,19 @@
+@import '../Variable.scss';
+.form-heading{
+
+    &-container{
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &-title{
+        margin-bottom: 12px;
+    }
+
+    &-subtitle{
+        color: $grey;
+        font-weight: bold;
+    }
+}

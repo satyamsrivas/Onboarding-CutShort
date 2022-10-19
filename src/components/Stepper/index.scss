@@ -1,0 +1,47 @@
+@import '../../Variable.scss';
+.step{
+   &-container{
+    display: flex;
+    align-items: center;
+   }
+
+   &-circle{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: $white;
+    border: 2px solid $secondary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //color: black;
+    
+   }
+
+   &-tail{
+
+    height: 2px;
+    width: 30px;
+    background-color: $secondary; 
+   }
+
+   &-active{
+    background-color: $primary;
+    color: $white;
+    border: 2px solid $primary;
+
+   }
+
+   &-active-tail{
+    background-color: $primary;
+   }
+}
+
+.stepper{
+    &-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
